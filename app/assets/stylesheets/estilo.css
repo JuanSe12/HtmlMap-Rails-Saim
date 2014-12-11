@@ -1,0 +1,21 @@
+body{
+	background-color: gray;
+}
+#Map{
+	color: red;
+	background-color: red;
+}
+.punto1{
+	border: 2px solid black;
+	width: 200px;
+	height: 60px;
+	color:red;
+	background-color: red;
+	position: absolute;
+	margin-top: 500px;
+}
+.p1{
+	position: absolute;
+	background-color: red;
+	color: red;
+}
