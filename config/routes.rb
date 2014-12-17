@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'paginas/piso2'
 
+  get 'paginas/piso3'
+
   get 'paginas/area'
   get 'paginas/area2'
   get 'paginas/area3'
@@ -19,6 +21,24 @@ Rails.application.routes.draw do
   get 'paginas/sega6'
   get 'paginas/sega7'
   get 'paginas/sega8'
+
+  get 'paginas/obra1'
+  get 'paginas/obra2'
+  get 'paginas/obra3'
+  get 'paginas/obra4'
+  get 'paginas/obra5'
+  get 'paginas/obra6'
+  get 'paginas/obra7'
+  get 'paginas/obra8'
+  get 'paginas/obra9'
+  get 'paginas/obra10'
+  get 'paginas/obra11'
+  get 'paginas/obra12'
+  get 'paginas/obra13'
+  get 'paginas/obra14'
+  get 'paginas/obra15'
+  get 'paginas/obra16'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

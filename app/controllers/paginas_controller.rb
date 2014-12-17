@@ -46,4 +46,53 @@ class PaginasController < ApplicationController
 
   def sega8
   end
+
+  def obra1
+  end
+
+  def obra2
+  end
+
+  def obra3
+  end
+  
+  def obra4
+  end
+  
+  def obra5
+  end
+  
+  def obra6
+  end
+  
+  def obra7
+  end
+  
+  def obra8
+  end
+  
+  def obra9
+  end
+  
+  def obra10
+  end
+  
+  def obra11
+  end
+  
+  def obra12
+  end
+  
+  def obra13
+  end
+  
+  def obra14
+  end
+  
+  def obra15
+  end
+  
+  def obra16
+  end
+
 end
