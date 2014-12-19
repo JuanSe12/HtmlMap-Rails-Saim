@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :areas
+
   get 'paginas/index'
 
   get 'paginas/plano'
