@@ -1,4 +1,5 @@
 class Floor < ActiveRecord::Base
+	has_many :areas
 	attr_accessor :image
 	has_attached_file :image, styles: { medium: '550x550>', thumb: '105x105>' }, notice: 'El Tamaño de la imagen no es el correcto'
 	validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/

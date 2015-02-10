@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :floors
+  resources :areas
+
+  resources :floors do
+    resources :areas
+  end
 
   get 'paginas/index'
 

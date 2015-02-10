@@ -1,0 +1,11 @@
+<%= image_tag("Plano Primer Piso CFDCM.png", alt: 'Planets', usemap: '#planmap') %>
+<map name="planmap">
+
+  <% @areas.each do |area| %>
+    <area alt="" title="" href="/floors/<%= @floor.id %>/areas/<%= area.id %>" shape="<%= area.shape %>" coords="<%= area.coords %>" />
+  <% end %>
+</map>
+
+<br>
+
+<%= link_to 'New Area', new_floor_area_path(@floor) %>

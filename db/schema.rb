@@ -11,7 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150210000905) do
+ActiveRecord::Schema.define(version: 20150210175646) do
+
+  create_table "areas", force: true do |t|
+    t.string   "nombre"
+    t.string   "coords"
+    t.integer  "floor_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+  end
+
+  add_index "areas", ["floor_id"], name: "index_areas_on_floor_id"
 
   create_table "floors", force: true do |t|
     t.string   "nombre"

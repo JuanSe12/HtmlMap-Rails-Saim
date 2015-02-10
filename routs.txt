@@ -1,0 +1,59 @@
+         Prefix Verb   URI Pattern                                Controller#Action
+          areas GET    /areas(.:format)                           areas#index
+                POST   /areas(.:format)                           areas#create
+       new_area GET    /areas/new(.:format)                       areas#new
+      edit_area GET    /areas/:id/edit(.:format)                  areas#edit
+           area GET    /areas/:id(.:format)                       areas#show
+                PATCH  /areas/:id(.:format)                       areas#update
+                PUT    /areas/:id(.:format)                       areas#update
+                DELETE /areas/:id(.:format)                       areas#destroy
+    floor_areas GET    /floors/:floor_id/areas(.:format)          areas#index
+                POST   /floors/:floor_id/areas(.:format)          areas#create
+ new_floor_area GET    /floors/:floor_id/areas/new(.:format)      areas#new
+edit_floor_area GET    /floors/:floor_id/areas/:id/edit(.:format) areas#edit
+     floor_area GET    /floors/:floor_id/areas/:id(.:format)      areas#show
+                PATCH  /floors/:floor_id/areas/:id(.:format)      areas#update
+                PUT    /floors/:floor_id/areas/:id(.:format)      areas#update
+                DELETE /floors/:floor_id/areas/:id(.:format)      areas#destroy
+         floors GET    /floors(.:format)                          floors#index
+                POST   /floors(.:format)                          floors#create
+      new_floor GET    /floors/new(.:format)                      floors#new
+     edit_floor GET    /floors/:id/edit(.:format)                 floors#edit
+          floor GET    /floors/:id(.:format)                      floors#show
+                PATCH  /floors/:id(.:format)                      floors#update
+                PUT    /floors/:id(.:format)                      floors#update
+                DELETE /floors/:id(.:format)                      floors#destroy
+  paginas_index GET    /paginas/index(.:format)                   paginas#index
+  paginas_plano GET    /paginas/plano(.:format)                   paginas#plano
+  paginas_piso2 GET    /paginas/piso2(.:format)                   paginas#piso2
+  paginas_piso3 GET    /paginas/piso3(.:format)                   paginas#piso3
+   paginas_area GET    /paginas/area(.:format)                    paginas#area
+  paginas_area2 GET    /paginas/area2(.:format)                   paginas#area2
+  paginas_area3 GET    /paginas/area3(.:format)                   paginas#area3
+  paginas_area4 GET    /paginas/area4(.:format)                   paginas#area4
+  paginas_area5 GET    /paginas/area5(.:format)                   paginas#area5
+  paginas_sega1 GET    /paginas/sega1(.:format)                   paginas#sega1
+  paginas_sega2 GET    /paginas/sega2(.:format)                   paginas#sega2
+  paginas_sega3 GET    /paginas/sega3(.:format)                   paginas#sega3
+  paginas_sega4 GET    /paginas/sega4(.:format)                   paginas#sega4
+  paginas_sega5 GET    /paginas/sega5(.:format)                   paginas#sega5
+  paginas_sega6 GET    /paginas/sega6(.:format)                   paginas#sega6
+  paginas_sega7 GET    /paginas/sega7(.:format)                   paginas#sega7
+  paginas_sega8 GET    /paginas/sega8(.:format)                   paginas#sega8
+  paginas_obra1 GET    /paginas/obra1(.:format)                   paginas#obra1
+  paginas_obra2 GET    /paginas/obra2(.:format)                   paginas#obra2
+  paginas_obra3 GET    /paginas/obra3(.:format)                   paginas#obra3
+  paginas_obra4 GET    /paginas/obra4(.:format)                   paginas#obra4
+  paginas_obra5 GET    /paginas/obra5(.:format)                   paginas#obra5
+  paginas_obra6 GET    /paginas/obra6(.:format)                   paginas#obra6
+  paginas_obra7 GET    /paginas/obra7(.:format)                   paginas#obra7
+  paginas_obra8 GET    /paginas/obra8(.:format)                   paginas#obra8
+  paginas_obra9 GET    /paginas/obra9(.:format)                   paginas#obra9
+ paginas_obra10 GET    /paginas/obra10(.:format)                  paginas#obra10
+ paginas_obra11 GET    /paginas/obra11(.:format)                  paginas#obra11
+ paginas_obra12 GET    /paginas/obra12(.:format)                  paginas#obra12
+ paginas_obra13 GET    /paginas/obra13(.:format)                  paginas#obra13
+ paginas_obra14 GET    /paginas/obra14(.:format)                  paginas#obra14
+ paginas_obra15 GET    /paginas/obra15(.:format)                  paginas#obra15
+ paginas_obra16 GET    /paginas/obra16(.:format)                  paginas#obra16
+           root GET    /                                          floors#index
